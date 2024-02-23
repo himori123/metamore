@@ -1,6 +1,6 @@
 
 # metamore
-This script uses the waybackurls tool to explore URLs in search of a variety of files, such as texts, documents, images and much more. The process is automated and implements multithreading for maximum download efficiency. All downloaded files are organized in a numbered folder structure and then subjected to a detailed metadata analysis to provide additional information about their content.
+This script uses the waybackurls tool to explore URLs in search of a variety of files, such as texts, documents, images and much more. The process is automated and without multithreading for maximum download efficiency. All downloaded files are organized in a numbered folder structure and then subjected to detailed metadata analysis to provide additional information about their content.
 
 OBS: You can import other tools besides waybackurls
 
