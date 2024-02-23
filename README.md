@@ -12,7 +12,7 @@ OBS: You can import other tools besides waybackurls
 
 3 - chmod 777 metamore.sh
 
-4 - ./metamore.sh
+4 - ./metamore_5.sh
 
 
 Tool output:
