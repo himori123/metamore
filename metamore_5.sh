@@ -23,7 +23,7 @@ do
             mkdir -p "$folder_name"
 
             # Baixar os arquivos e salvá-los na pasta especificada
-            cat "$url_file" | waybackurls | grep -E ".pdf$|.doc$|.jpg$|.png$|.docx$|.xml$|.xlsx$" | while read -r url; do
+            cat "$url_file" | waybackurls | grep -E ".doc$|.docx$|.xml$|.xlsx$" | while read -r url; do
                 ((count++))
                 echo -e "\e[34mBaixando: $url\e[0m"
                 wget "$url" -O "$folder_name/file_$count.$(echo $url | awk -F . '{print $NF}')"
